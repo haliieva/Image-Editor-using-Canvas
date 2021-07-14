@@ -14,6 +14,8 @@ export const mousedownHandler = event => {
 
     imageEditor.coords.x1 = event.offsetX;
     imageEditor.coords.y1 = event.offsetY;
+
+
 };
 
 export const mouseupHandler = event => {

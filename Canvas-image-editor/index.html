@@ -5,17 +5,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Image Editor</title>
-	<link rel="stylesheet" href="./src/style.css">
+	<link rel="stylesheet" href="./src/style/style.css">
 
 </head>
 
 <body>
-	<div class="redo">
+	<div id="redo">
 		<input type="number" value="1" id="line-width">
 		<input type="color" value="#000" id="line-color">
 		<button id="canvas-clear">Clear</button>
-	</div>
-	<canvas id="image-editor" width="800" height="600"></canvas>
+	
+	<canvas id="image-editor" width="900" height="600"></canvas>
+</div>
+
 	<script src="/dist/main.js" type="module"></script>
 </body>
 
